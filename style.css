@@ -74,3 +74,35 @@ a{
     gap: 20px;
 
 }
+.section h3{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+}
+.card-body{
+    background-color: #4A4E69 ;
+    color: #C9ADA7 !important;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+
+}
+.card-text{
+    color: #C9ADA7 !important;
+    font-weight: normal;
+}
+h5{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    
+}
+.card-body a{
+    color: #C9ADA7 !important;
+    background-color: #22223B;
+    border-radius: 20px;
+    width: 100px;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
