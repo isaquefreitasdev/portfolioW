@@ -71,6 +71,7 @@ a{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: ;
     gap: 20px;
 
 }
@@ -105,4 +106,34 @@ h5{
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
+}
+.aboutMe{
+    background-color: #22223B;
+    color: #C9ADA7 !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    gap: 20px;
+    width: 100vw;
+    
+}
+.aboutMe p{
+    color: #C9ADA7 !important;
+    margin-left: 10px;
+}
+.aboutMe_Content img{
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+#projects{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.aboutMe img:hover{
+    width: 102px;
 }
