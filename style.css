@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 *{
-    box-sizing: ;
+    box-sizing:border-box ;
 }
 
 #menuNav {
@@ -139,12 +139,15 @@ h5{
 }
 .aboutMe img:hover{
    opacity: 0.7;
+   transform: scale(1.1);
 }
 button:hover{
     opacity: 0.7;
+    transform: scale(1.1);
 }
 a:hover{
     opacity: 0.7;
+    
 }
 .Tecnologias{
     display: flex;
@@ -152,7 +155,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    height: ;
+    
 }
 .Tecnologias h3{
     font-family: "Nunito", sans-serif;
@@ -163,4 +166,64 @@ a:hover{
 }
 .card:hover{
     opacity: 0.7;
+    transform: scale(1.1);
+}
+.Contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    background-color: #22223B;
+    
+    
+}
+.titleImgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20pxs;
+    
+}
+.Contact h3{
+    color: #C9ADA7;
+}
+.imgs img{
+    width:10vw ;
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.formsInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+   
+}
+.formsInput input, textarea{
+    width:70vw;
+}
+#submitButton{
+    width:70vw;
+    background-color: #C9ADA7;
+    color: #22223B;
+}
+input{
+    outline: none;
+    border-radius: 30px;
+    height: 50px;
+    border: none;
+}
+input::placeholder{
+    position: relative;
+    left: 20px;
 }
